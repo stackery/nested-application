@@ -8,7 +8,7 @@ Resources:
   MyOtherNestedApp:
     Type: AWS::Serverless::Application
     Properties:
-      Location: MyOtherNestedApp/template.yaml
+      Location: MyNestedApp2/template.yaml
   TopLevelApi:
     Type: AWS::Serverless::Api
     Properties:
