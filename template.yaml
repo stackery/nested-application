@@ -4,11 +4,11 @@ Resources:
   MyNestedApp:
     Type: AWS::Serverless::Application
     Properties:
-      Location: service1/template.yaml
+      Location: MyNestedApp/template.yaml
   MyOtherNestedApp:
     Type: AWS::Serverless::Application
     Properties:
-      Location: service2/template.yaml
+      Location: MyOtherNestedApp/template.yaml
   TopLevelApi:
     Type: AWS::Serverless::Api
     Properties:
