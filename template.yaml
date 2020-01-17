@@ -5,7 +5,7 @@ Resources:
     Type: AWS::Serverless::Application
     Properties:
       Location: MyNestedApp/template.yaml
-  MyOtherNestedApp:
+  MyNestedApp2:
     Type: AWS::Serverless::Application
     Properties:
       Location: MyNestedApp2/template.yaml
