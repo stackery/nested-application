@@ -1,2 +1,2 @@
-stack-name: MyOtherNestedApp
+stack-name: MyNestedApp2
 template-path: template.yaml
